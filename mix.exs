@@ -54,7 +54,7 @@ defmodule PasswordValidatorZxcvbn.MixProject do
   defp deps do
     [
       {:ex_doc, "~> 0.21", only: :dev, runtime: false},
-      {:password_validator, "~> 0.4"},
+      {:password_validator, git: "https://github.com/mrdotb/password-validator", branch: "master"},
       {:zxcvbn, "~> 0.1.3"}
     ]
   end
